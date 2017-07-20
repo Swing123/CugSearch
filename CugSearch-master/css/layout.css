@@ -1,0 +1,249 @@
+
+@font-face {
+	font-family: Wenquanyi micro hei;
+	src: url(fonts/文泉驿微米黑.ttc);
+
+}
+
+@font-face {
+	font-family: Hanyi zongyi;
+	src: url(fonts/汉仪综艺体简.ttf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+body {
+	background: #F3F3F3;
+	font-family: 'Wenquanyi micro hei', 微软雅黑, 黑体;
+}
+
+/*----------------------------------------------------------------------------
+ * header
+ ----------------------------------------------------------------------------*/
+
+#frame-header {
+	height: 250px;
+	margin-bottom: 20px;
+	border-top: 10px solid #00C474;
+	border-bottom:  5px solid #989898; 
+	background: #363636;
+}
+
+#frame-header-xs {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	height: 70px;
+	margin-bottom: 20px;
+	background: #363636;
+
+	-webkit-box-shadow: 0 1px 6px #3B3B3B;  
+	-moz-box-shadow: 0 1px 6px #3B3B3B;  
+	box-shadow: 0 1px 6px #3B3B3B;  
+}
+
+#hdivider {
+	height: 90px;
+}
+
+#logo {
+	float: left;
+	height:  250px;
+	margin-left: 40px;
+}
+
+#menu-icon {
+	position: absolute;
+	cursor: pointer;
+	left: 3%;
+	top: 24px;
+}
+
+
+#logo-xs {
+	position: absolute;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#account {
+	position: absolute;
+	top: 20px;
+	right: 40px;
+}
+
+#account a{
+	cursor: pointer;
+	color: #fff;
+}
+
+#content {
+	padding: 0 3%;
+	overflow: hidden;
+}
+
+#content-left {
+	padding: 0;
+}
+
+#content-right {
+	padding: 0;
+	padding-left: 30px;
+}
+
+/*----------------------------------------------------------------------------
+ * content-left
+ ----------------------------------------------------------------------------*/
+
+ #content-left section {
+ 	padding: 0;
+ }
+
+ .divider {
+ 	width: 100%;
+	height: 90px;
+ }
+
+#location {
+	float: left;
+}
+
+#location span {
+	display: inline-block;
+	padding-top: 6px;
+	padding-left: 10px;
+	color: #999999;
+}
+
+#location span a {
+	cursor: pointer;
+	color: #999999;
+	font-size: 14px;
+}
+
+#search {
+	float: right;
+	width: 150px;
+	height: 30px;
+	padding: 5px;
+	border: 2px solid #D9D9D9;
+	color: #7F7F7F;
+}
+
+#search-xs {
+	height: 40px;
+	padding: 5px;
+	margin-top: 15px;
+	border: 2px solid #D9D9D9;
+	color: #7F7F7F;
+}
+
+#breadcrumb-top {
+	height: 60px;
+	margin-top: 25px;
+	padding: 0;
+	margin-bottom: 0;
+	background: #fff;
+	border-bottom: 4px solid #00C474;
+}
+
+#breadcrumb-top li {
+	float: left;
+	cursor: pointer;
+	padding: 0 20px;
+	line-height: 60px;
+	color: #707070;
+	font-size: 16px;
+}
+
+#breadcrumb-top li:hover {
+	background: #00C474;
+	color: #fff;
+}
+
+#breadcrumb-top li.selected {
+	color: #fff;
+	background: #00C474;
+}
+
+#breadcrumb-bottom {
+	margin: 0;
+	background: #fff;
+	padding: 10px 8px;
+}
+
+#breadcrumb-bottom li {
+	float: left;
+	cursor: pointer;
+	padding: 5px 15px;
+	color: #707070;
+}
+
+#web-display {
+	margin-top: 15px;
+}
+
+.cell {
+	cursor: pointer;
+	padding-top: 15px;
+	width:150px; 
+	height: 70px; 
+	background-color: #5BC0DE;
+	border: 5px solid #fff;
+	-moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+	color: #fff;
+	text-align: center;
+
+}
+
+/*----------------------------------------------------------------------------
+ * content-right
+ ----------------------------------------------------------------------------*/
+
+.opr-item {
+	padding: 0;
+}
+
+.opr-item header {
+	width: 100%;
+	height: 50px;
+	padding-left: 20px;
+	line-height: 50px;
+	color: #fff;
+	font-family: "Hanyi zongyi";
+	font-size: 18px;
+	background: #00C474;
+}
+
+.opr-item article {
+	width: 100%;
+	padding: 20px;
+	font-size: 16px;
+	line-height: 25px;
+	color: #7D7D7D;
+	background: #fff;
+}
+
+.opr-item button {
+	width: 100%;
+}
+
+
+/*----------------------------------------------------------------------------
+ * footer
+ ----------------------------------------------------------------------------*/
+
+footer{
+	height: 330px;
+	margin-top: 40px;
+	background: #333333;
+}

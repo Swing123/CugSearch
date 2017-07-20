@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html ng-app="cugsearchApp">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, target-densitydpi=high-dpi, user-scalable=no" />
+<title>地大搜索</title>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="framework/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<link rel="stylesheet" type="text/css" href="css/accordion.css" />
+<!-- css end -->
+
+</head>                                                                                                             
+<body>
+<!-- header -->
+<span ng-include="'template/header.html'"></span>
+<!-- header end -->
+
+<!-- content -->
+<section id="content" class="col-sm-12">
+	<!-- content-left -->
+	<section id="content-left" class="col-sm-9">
+		<section class="divider visible-xs"></section>
+		<section class="col-xs-12">
+			<section id="location">
+				<img src="img/location_18X25.png" />
+				<span><a>首页</a> > <a>官方网站</a> > <a>信息工程学院</a> > <a>官网</a></span>
+			</section>
+			<input type="text" id="search" class="search hidden-xs">
+		</section>
+
+		<input type="text" id="search-xs" class="form-control search col-xs-12 visible-xs form-control input-lg" placeholder="请输入你想要搜索的网站~" />
+
+		<span ng-include="'template/breadcrumb.html'"></span>
+		<span ng-include="'template/webdisplay.html'"></span>
+		
+	</section>
+	<!-- content-left end -->
+
+	<!-- content-right -->
+	<section id="content-right" class="hidden-xs col-sm-3 ">
+
+		<section class="opr-item col-sm-12">
+			<header>校园黄页</header>
+			<article>
+				<p>还在为联系不到老师而发愁么，还在为找不到教务处的电话而着急么。校园黄页，你值得拥有。</p>
+				<button class="btn btn-info">点击进入</button>
+			</article>
+		</section>
+
+	</section>
+	<!-- content-right end -->
+
+</section>
+<!-- content end -->
+
+<!-- footer -->
+<footer class="col-sm-12">
+	
+</footer>
+<!-- footer end -->
+
+<!-- javascript -->
+<script src="framework/jquery/js/jquery-2.2.0.min.js"></script>
+<script src="framework/angular/js/angular.min.js"></script>
+<script src="framework/bootstrap/js/dropdown.js"></script>
+<script src="framework/freewall/js/freewall.js"></script>
+<script src="js/app.js"></script>
+<script src="js/directive.js"></script>
+<script src="js/controller.js"></script>
+
+<!-- javascript end -->
+
+</body>
+</html>
